@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoapresentação</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="shortcut icon" href=""> <!--Adicionar foto dps-->
+</head>
+<body>
+    <div id="container">
+        <header id="cabecalho">
+            <img src="" alt="">
+            <h1>Fernanda Fukasawa</h1>
+        </header>
+
+        <nav id="menu">
+            <div class="btn">
+                <a href="index.html">Home</a>
+            </div>
+
+            <div class="btn">
+                <a href="pagina1.html">Hobbys</a>
+            </div>
+
+            <div class="btn">
+                <a href="pagina2.html">Gostos</a>
+            </div>
+
+            <div class="btn">
+                <a href="pagina3.html">Saiba mais</a>
+            </div>
+        </nav>
+
+        <section id="main">
+
+            <div class="secoes">
+                <h1>Vamos ver se prestaram atenção?</h1>
+                <form action="pagina4.html">
+                    <fieldset>
+                        <legend>Quiz:</legend>
+
+                        <label for="escolas">Em quantas escolas eu estudei? </label><br/>
+                        <input type="radio" name="social" id="1" value="1"/>
+                        <label for="a">1 escola</label> <!--no radio, o nome deve ser igual para todos-->
+                        <br/>
+                        <input type="radio" name="social" id="2" value="2"/>
+                        <label for="a">2 escolas</label>
+                        <br/>
+                        <input type="radio" name="social" id="3" value="3" />
+                        <label for="a">3 escolas</label>
+                        <br/><hr/>
+
+                        <label for="linguas">Quais dessas línguas eu sei falar?</label><br/>
+                        <label for="ingles">Inglês</label>
+                        <input type="checkbox" name="linguas" id="ingles" value="Inglês"/>
+                        &nbsp;<!--espaço em branco-->
+                        <label for="italiano">Italiano</label>
+                        <input type="checkbox" name="linguas" id="italiano" value="Italiano">
+                        &nbsp;
+                        <label for="frances">Francês</label>
+                        <input type="checkbox" name="linguas" id="frances" value="Francês">
+                        &nbsp;
+                        <label for="japones">Japonês</label>
+                        <input type="checkbox" name="linguas" id="japones" value="Japonês">
+                        <br/><hr/> 
+
+                        <Label for="generos">Quais são os gêneros de filme que eu mais gosto?</Label><br/>
+                        <select name="" id="">
+                            <option value="op1">romance, ação, comédia</option>
+                            <option value="op2">ação, terror, romance</option>
+                            <option value="op3">animação, ação, comédia</option>
+                            <option value="op4">romance, terror, animação</option>
+                        </select>
+                        <br/><hr/> 
+
+                        <Label for="lugares">Desses lugares, para qual eu já viajei?</Label><br/>
+                        <select name="cbxLug" id="cbxLug">
+                            <optgroup label="Europa">
+                                <option value="italia">Itália</option>
+                                <option value="portugal">Portugal</option>
+                                <option value="espanha">Espanha</option>
+                            </optgroup>
+                            <optgroup label="América">
+                                <option value="mexico">México</option>
+                                <option value="argentina">Argentina</option>
+                                <option value="peru">Peru</option>
+                            </optgroup>
+                            <optgroup label="Ásia">
+                                <option value="filipinas">Filipinas</option>
+                                <option value="china">China</option>
+                                <option value="japao">Japão</option>
+                            </optgroup>
+                        </select>
+                        <br/><br/>
+                        <input type="submit" value="Salvar"/>
+                        
+                    </fieldset>
+                </form>
+            </div>
+          
+            <div class="secoes">
+                <h1>Para saber mais:</h1>
+                <form action="">
+                    <fieldset>
+                        <legend>Contato</legend>
+                        <!--insta/email/github/tiktok/linkedin/numero do celular-->
+                        <label for="email">E-mail: </label>
+                        <input type="text" disabled value="fefs.fuka@gmail.com" size="20">
+                        <br/>
+                        <br/>
+
+                        <label for="celular">Celular: </label>
+                        <input type="text" name="txt_cel" id="txt_cel" disabled value="98122-3443" size="8">
+                        <br/>
+                        <br/>
+
+                        <label for="linkedin">LinkedIn: </label>
+                        <input type="text" name="txt_linkedin" id="txt_linkedin" disabled value="Fernanda Fukasawa" size="14">
+                        <br/>
+                        <br/>
+
+                        <label for="github">Github: </label>
+                        <input type="text" name="txt_git" id="txt_git" disabled value="ffukasawa" size="13">
+                        <br/>
+                        <br/>
+
+                        <label for="insta">Instagram: </label>
+                        <input type="text" name="txt_insta" id="txt_insta" disabled value="f.fukasawa" size="10">
+                        <br/>
+                        <br/>
+
+                        <label for="tiktok">Tiktok: </label>
+                        <input type="text" name="txt_tk" id="txt_tk" disabled value="fernanda.fukasawa" size="18">
+                        <br/>
+                        <br/>
+                    </fieldset>
+                </form>
+            </div>
+            
+        </section>
+        
+        <footer id="rodape">Fernanda Fukasawa</footer>
+
+    </div>
+</body>
+</html>
