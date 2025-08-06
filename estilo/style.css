@@ -1,0 +1,299 @@
+:root {
+  --azul-claro: #426899;
+  --azul-medio1: #325988;
+  --azul-medio2: #214977;
+  --azul-escuro1: #113A66;
+  --azul-escuro2: #002A55;
+}
+
+#container{
+    background-color:  rgb(112, 155, 224);
+    padding: 2em;
+
+}
+
+#cabecalho{
+    background-color: var(--azul-escuro2);
+    border: rgb(219, 219, 219) solid 1px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 2em;
+    color: rgb(201, 201, 201);
+    text-align: center;
+    
+}
+
+#menu{
+    padding: 2%;
+    width: 90%;
+    background-color: rgb(117, 149, 209);
+    border: rgb(207, 205, 205) 1px solid;
+    margin: 2%;
+    border-radius: 10px
+    
+}
+
+div a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+div.btn{
+    border-radius: 10px;
+    padding: 2px;
+    text-align: center;
+    margin: 5px;
+    background-color: rgb(52, 95, 163);
+    width: 100px;
+    display: inline-block;
+}
+
+#menu div:hover{
+    text-decoration: underline;
+    color: coral;
+    background-color: rgb(166, 187, 211);
+}
+
+#menu div:active{
+    background-color: rgb(245, 209, 228);
+    border: ghostwhite 1px solid;
+}
+
+.secoes{
+    border: #113A66 solid 1px;
+    background-color: #113A66;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 2em;
+}
+
+h1,h2,h3{
+    color: rgb(230, 241, 241);
+    text-align: center;
+}
+
+h4{
+    color: rgb(230, 241, 241);
+}
+
+
+li{
+    color: rgb(230, 241, 241);
+    font-size: 14pt;
+}
+
+ul img{
+    display: inline-block;
+    border-radius: 5px;
+    border: rgb(126, 138, 156) solid 1px;
+}
+
+.gatos{
+    width: 19%;
+    margin: 2em;
+    display: inline-block;
+}
+
+ul video{
+    display: inline-block;
+    border-radius: 5px;
+    border: rgb(126, 138, 156) solid 1px;
+}
+
+#maternal{
+    width: 500px;
+}
+
+#csi1{
+    margin: 2em;
+    width: 450px;
+}
+
+#csi2{
+    margin: 2em;
+    width: 450px;
+}
+
+.ft_familia{
+    width: 28%;
+    align-items: center;
+    text-align: center;
+    margin:  2em;
+    justify-content: center;
+    border: azure solid 1px;
+    border-radius: 8px;
+    display: inline-block;
+
+}
+
+p{
+    color: azure;
+    text-align: center;
+    font-size: 14pt;
+}
+
+.txt{
+    text-align: left;
+}
+
+#ft_materna{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#ft_paterna{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 43%;
+}
+
+figure.polaroid{
+    width: 450px;
+    box-shadow: 0 4px 8px 0 black;
+    background-color: rgb(240, 248, 255);
+    text-align: center;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+figcaption{
+    padding: 10px;
+    text-align: center;
+}
+
+#ft_polaroid{
+    width: 100%;
+    
+}
+/* ----------------------------------------------------------------------------------------*/
+.imag{
+    width: 25%;
+    display: inline-block;
+    border-radius: 5px;
+    border: rgb(126, 138, 156) solid 1px;
+    margin: 2em;
+}
+.vd{
+    width: 25%;
+    border-radius: 5px;
+    border: rgb(126, 138, 156) solid 1px;
+    margin: 2em;
+}
+
+#ski{
+    width: 33%;
+}
+
+#bz_fam{
+    width: 33%;
+}
+
+.ny{
+    width: 30%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 1em;
+    border-radius: 2px;
+}
+
+.cnd{
+    width: 35%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 3em;
+    border-radius: 2px;
+}
+
+.lm{
+    width: 40%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 4em;
+    border-radius: 2px;
+}
+
+.nrg{
+
+    width: 30%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 1em;
+    border-radius: 2px;
+}
+
+#lm1{
+    width: 36%;
+}
+
+.dn{
+    width: 30%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 1em;
+    border-radius: 2px; 
+}
+
+#cgc{
+    width: 20%;
+    margin: 2em;
+}
+
+/* ----------------------------------------------------------------------------------------*/
+.musicas{
+    width: 40%;
+    height: 200px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.filmes{
+    width: 20%;
+    align-items: center;
+    display: inline-block;
+    margin: 1.5em;
+}
+
+#mamma{
+    width: 19%;
+}
+
+.side{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.rank{
+    text-align: center;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+
+legend{
+    color: rgb(198, 225, 248);
+}
+
+label{
+    color: aliceblue;
+}
+
